@@ -35,6 +35,7 @@ namespace PhotoSharingApp
             {
                 Console.WriteLine($"{blob.Name} --> Created On: {blob.Properties.CreatedOn:yyyy-MM-dd HH:mm:ss}  Size: {blob.Properties.ContentLength}");
             }
+            //end
         }
     }
 }
